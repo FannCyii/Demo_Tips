@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Animation_A/Animation_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CollecitionView_A/CollecitionView_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:View_Layout/View_Layout.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:View_Gradient/View_Gradient.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ContainerViewController/ContainerViewController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Demo_Tips.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
