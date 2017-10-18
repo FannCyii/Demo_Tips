@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9629DE1EA726B400BCDE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9629DD1EA726B400BCDE8B /* main.m */; };
+		BF9629E11EA726B400BCDE8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9629E01EA726B400BCDE8B /* AppDelegate.m */; };
+		BF9629E41EA726B400BCDE8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9629E31EA726B400BCDE8B /* ViewController.m */; };
+		BF9629E71EA726B400BCDE8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9629E51EA726B400BCDE8B /* Main.storyboard */; };
+		BF9629E91EA726B400BCDE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9629E81EA726B400BCDE8B /* Assets.xcassets */; };
+		BF9629EC1EA726B400BCDE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9629EA1EA726B400BCDE8B /* LaunchScreen.storyboard */; };
+		BF9629F61EA726E500BCDE8B /* KIVContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9629F51EA726E500BCDE8B /* KIVContainerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF9629D91EA726B400BCDE8B /* KIVContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIVContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9629DD1EA726B400BCDE8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF9629DF1EA726B400BCDE8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF9629E01EA726B400BCDE8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF9629E21EA726B400BCDE8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF9629E31EA726B400BCDE8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF9629E61EA726B400BCDE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF9629E81EA726B400BCDE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9629EB1EA726B400BCDE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF9629ED1EA726B400BCDE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9629F41EA726E500BCDE8B /* KIVContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KIVContainerViewController.h; path = KIVContainerViewContrller/KIVContainerViewController.h; sourceTree = "<group>"; };
+		BF9629F51EA726E500BCDE8B /* KIVContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KIVContainerViewController.m; path = KIVContainerViewContrller/KIVContainerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9629D61EA726B400BCDE8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9629D01EA726B400BCDE8B = {
+			isa = PBXGroup;
+			children = (
+				BF9629DB1EA726B400BCDE8B /* KIVContainerViewController */,
+				BF9629DA1EA726B400BCDE8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9629DA1EA726B400BCDE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9629D91EA726B400BCDE8B /* KIVContainerViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9629DB1EA726B400BCDE8B /* KIVContainerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF9629F31EA726C600BCDE8B /* KIVContainerViewContrller */,
+				BF9629DF1EA726B400BCDE8B /* AppDelegate.h */,
+				BF9629E01EA726B400BCDE8B /* AppDelegate.m */,
+				BF9629E21EA726B400BCDE8B /* ViewController.h */,
+				BF9629E31EA726B400BCDE8B /* ViewController.m */,
+				BF9629E51EA726B400BCDE8B /* Main.storyboard */,
+				BF9629E81EA726B400BCDE8B /* Assets.xcassets */,
+				BF9629EA1EA726B400BCDE8B /* LaunchScreen.storyboard */,
+				BF9629ED1EA726B400BCDE8B /* Info.plist */,
+				BF9629DC1EA726B400BCDE8B /* Supporting Files */,
+			);
+			path = KIVContainerViewController;
+			sourceTree = "<group>";
+		};
+		BF9629DC1EA726B400BCDE8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9629DD1EA726B400BCDE8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9629F31EA726C600BCDE8B /* KIVContainerViewContrller */ = {
+			isa = PBXGroup;
+			children = (
+				BF9629F41EA726E500BCDE8B /* KIVContainerViewController.h */,
+				BF9629F51EA726E500BCDE8B /* KIVContainerViewController.m */,
+			);
+			name = KIVContainerViewContrller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9629D81EA726B400BCDE8B /* KIVContainerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9629F01EA726B400BCDE8B /* Build configuration list for PBXNativeTarget "KIVContainerViewController" */;
+			buildPhases = (
+				BF9629D51EA726B400BCDE8B /* Sources */,
+				BF9629D61EA726B400BCDE8B /* Frameworks */,
+				BF9629D71EA726B400BCDE8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIVContainerViewController;
+			productName = KIVContainerViewController;
+			productReference = BF9629D91EA726B400BCDE8B /* KIVContainerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9629D11EA726B400BCDE8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kivan;
+				TargetAttributes = {
+					BF9629D81EA726B400BCDE8B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3X7GXPZAD8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF9629D41EA726B400BCDE8B /* Build configuration list for PBXProject "KIVContainerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9629D01EA726B400BCDE8B;
+			productRefGroup = BF9629DA1EA726B400BCDE8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9629D81EA726B400BCDE8B /* KIVContainerViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9629D71EA726B400BCDE8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9629EC1EA726B400BCDE8B /* LaunchScreen.storyboard in Resources */,
+				BF9629E91EA726B400BCDE8B /* Assets.xcassets in Resources */,
+				BF9629E71EA726B400BCDE8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9629D51EA726B400BCDE8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9629E41EA726B400BCDE8B /* ViewController.m in Sources */,
+				BF9629E11EA726B400BCDE8B /* AppDelegate.m in Sources */,
+				BF9629DE1EA726B400BCDE8B /* main.m in Sources */,
+				BF9629F61EA726E500BCDE8B /* KIVContainerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF9629E51EA726B400BCDE8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9629E61EA726B400BCDE8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9629EA1EA726B400BCDE8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9629EB1EA726B400BCDE8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9629EE1EA726B400BCDE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF9629EF1EA726B400BCDE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9629F11EA726B400BCDE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3X7GXPZAD8;
+				INFOPLIST_FILE = KIVContainerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.kivan.cheng.KIVContainerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF9629F21EA726B400BCDE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3X7GXPZAD8;
+				INFOPLIST_FILE = KIVContainerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.kivan.cheng.KIVContainerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9629D41EA726B400BCDE8B /* Build configuration list for PBXProject "KIVContainerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9629EE1EA726B400BCDE8B /* Debug */,
+				BF9629EF1EA726B400BCDE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9629F01EA726B400BCDE8B /* Build configuration list for PBXNativeTarget "KIVContainerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9629F11EA726B400BCDE8B /* Debug */,
+				BF9629F21EA726B400BCDE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9629D11EA726B400BCDE8B /* Project object */;
+}

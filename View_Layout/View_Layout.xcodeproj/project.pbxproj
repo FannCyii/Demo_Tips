@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		068824CC4ACE5A4EB70E0B5E /* libPods-View_Layout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6E2ABB30584C92144006BEE /* libPods-View_Layout.a */; };
+		BFC898941E952ECB000BE20B /* VIEWCLASSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC898931E952ECB000BE20B /* VIEWCLASSViewController.m */; };
 		BFD07DFF1E8BEB34004AFEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD07DFE1E8BEB34004AFEC1 /* main.m */; };
 		BFD07E021E8BEB34004AFEC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD07E011E8BEB34004AFEC1 /* AppDelegate.m */; };
 		BFD07E051E8BEB34004AFEC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD07E041E8BEB34004AFEC1 /* ViewController.m */; };
@@ -25,6 +26,8 @@
 		6297A76470461E44E5421E8B /* Pods-View_Layout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-View_Layout.release.xcconfig"; path = "../Pods/Target Support Files/Pods-View_Layout/Pods-View_Layout.release.xcconfig"; sourceTree = "<group>"; };
 		775057862979DB584FBC2593 /* Pods-View_Layout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-View_Layout.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-View_Layout/Pods-View_Layout.debug.xcconfig"; sourceTree = "<group>"; };
 		A6E2ABB30584C92144006BEE /* libPods-View_Layout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-View_Layout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC898921E952ECB000BE20B /* VIEWCLASSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VIEWCLASSViewController.h; sourceTree = "<group>"; };
+		BFC898931E952ECB000BE20B /* VIEWCLASSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VIEWCLASSViewController.m; sourceTree = "<group>"; };
 		BFD07DFA1E8BEB34004AFEC1 /* View_Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = View_Layout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD07DFE1E8BEB34004AFEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFD07E001E8BEB34004AFEC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +81,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BFC897C01E94AF46000BE20B /* LifeCycel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LifeCycel;
+			sourceTree = "<group>";
+		};
+		BFC898911E952EB0000BE20B /* ViewClass */ = {
+			isa = PBXGroup;
+			children = (
+				BFC898921E952ECB000BE20B /* VIEWCLASSViewController.h */,
+				BFC898931E952ECB000BE20B /* VIEWCLASSViewController.m */,
+			);
+			name = ViewClass;
+			sourceTree = "<group>";
+		};
 		BFD07DF11E8BEB34004AFEC1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +118,8 @@
 		BFD07DFC1E8BEB34004AFEC1 /* View_Layout */ = {
 			isa = PBXGroup;
 			children = (
+				BFC898911E952EB0000BE20B /* ViewClass */,
+				BFC897C01E94AF46000BE20B /* LifeCycel */,
 				BFD07E751E8D2896004AFEC1 /* PurePlus */,
 				BFD07E171E8BECE2004AFEC1 /* Base */,
 				BFD07E001E8BEB34004AFEC1 /* AppDelegate.h */,
@@ -243,7 +264,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D8195EE16FEA4DB92F6C684A /* [CP] Copy Pods Resources */ = {
@@ -272,6 +293,7 @@
 				BFD07E051E8BEB34004AFEC1 /* ViewController.m in Sources */,
 				BFD07E161E8BECDE004AFEC1 /* UIView+CreateLayoutView.m in Sources */,
 				BFD07E021E8BEB34004AFEC1 /* AppDelegate.m in Sources */,
+				BFC898941E952ECB000BE20B /* VIEWCLASSViewController.m in Sources */,
 				BFD07E7B1E8D296D004AFEC1 /* UIView+PureLayoutPlus.m in Sources */,
 				BFD07E301E8BEEE0004AFEC1 /* BannerView.m in Sources */,
 				BFD07DFF1E8BEB34004AFEC1 /* main.m in Sources */,

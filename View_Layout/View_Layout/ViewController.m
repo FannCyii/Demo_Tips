@@ -34,9 +34,6 @@
     [self.view addSubview:btn];
     btn.backgroundColor = [UIColor grayColor];
     [btn addTarget:self action:@selector(buttonClicked) forControlEvents:UIControlEventTouchUpInside];
-    
-    
-    
 }
 
 - (void)buttonClicked

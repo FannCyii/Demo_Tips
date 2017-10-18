@@ -7,25 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7AE1D71EB81DFF0003B430 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7AE1D61EB81DFF0003B430 /* TestViewController.m */; };
+		BF7AE1F01EB9577C0003B430 /* TestSupplementaryView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7AE1EF1EB9577C0003B430 /* TestSupplementaryView.m */; };
 		BFD07E491E8C7DBC004AFEC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD07E481E8C7DBC004AFEC1 /* main.m */; };
 		BFD07E4C1E8C7DBC004AFEC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD07E4B1E8C7DBC004AFEC1 /* AppDelegate.m */; };
-		BFD07E4F1E8C7DBC004AFEC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD07E4E1E8C7DBC004AFEC1 /* ViewController.m */; };
-		BFD07E521E8C7DBC004AFEC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD07E501E8C7DBC004AFEC1 /* Main.storyboard */; };
 		BFD07E541E8C7DBC004AFEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD07E531E8C7DBC004AFEC1 /* Assets.xcassets */; };
 		BFD07E571E8C7DBC004AFEC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFD07E551E8C7DBC004AFEC1 /* LaunchScreen.storyboard */; };
+		BFD394A51EB95D100050F3C6 /* TestReusableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD394A41EB95D100050F3C6 /* TestReusableFooterView.m */; };
+		BFD394A81EB960B50050F3C6 /* TestDecorationReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD394A71EB960B50050F3C6 /* TestDecorationReusableView.m */; };
+		BFD394D61EB973A70050F3C6 /* TestNewDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD394D51EB973A70050F3C6 /* TestNewDecorationView.m */; };
+		BFEDE0341EB2205B00DA0A23 /* MyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEDE0331EB2205B00DA0A23 /* MyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF7AE1D51EB81DFF0003B430 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BF7AE1D61EB81DFF0003B430 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BF7AE1EE1EB9577C0003B430 /* TestSupplementaryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSupplementaryView.h; sourceTree = "<group>"; };
+		BF7AE1EF1EB9577C0003B430 /* TestSupplementaryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSupplementaryView.m; sourceTree = "<group>"; };
 		BFD07E441E8C7DBC004AFEC1 /* CollecitionView_A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollecitionView_A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD07E481E8C7DBC004AFEC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFD07E4A1E8C7DBC004AFEC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFD07E4B1E8C7DBC004AFEC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFD07E4D1E8C7DBC004AFEC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BFD07E4E1E8C7DBC004AFEC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BFD07E511E8C7DBC004AFEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFD07E531E8C7DBC004AFEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD07E561E8C7DBC004AFEC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFD07E581E8C7DBC004AFEC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD394A31EB95D100050F3C6 /* TestReusableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestReusableFooterView.h; sourceTree = "<group>"; };
+		BFD394A41EB95D100050F3C6 /* TestReusableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestReusableFooterView.m; sourceTree = "<group>"; };
+		BFD394A61EB960B50050F3C6 /* TestDecorationReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDecorationReusableView.h; sourceTree = "<group>"; };
+		BFD394A71EB960B50050F3C6 /* TestDecorationReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDecorationReusableView.m; sourceTree = "<group>"; };
+		BFD394D41EB973A70050F3C6 /* TestNewDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNewDecorationView.h; sourceTree = "<group>"; };
+		BFD394D51EB973A70050F3C6 /* TestNewDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNewDecorationView.m; sourceTree = "<group>"; };
+		BFEDE0321EB2205B00DA0A23 /* MyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyFlowLayout.h; path = MyCollection_A/MyFlowLayout.h; sourceTree = "<group>"; };
+		BFEDE0331EB2205B00DA0A23 /* MyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyFlowLayout.m; path = MyCollection_A/MyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +55,10 @@
 		BFD07E3B1E8C7DBC004AFEC1 = {
 			isa = PBXGroup;
 			children = (
+				BFD394D41EB973A70050F3C6 /* TestNewDecorationView.h */,
+				BFD394D51EB973A70050F3C6 /* TestNewDecorationView.m */,
+				BFD394A61EB960B50050F3C6 /* TestDecorationReusableView.h */,
+				BFD394A71EB960B50050F3C6 /* TestDecorationReusableView.m */,
 				BFD07E461E8C7DBC004AFEC1 /* CollecitionView_A */,
 				BFD07E451E8C7DBC004AFEC1 /* Products */,
 			);
@@ -60,13 +77,18 @@
 			children = (
 				BFD07E4A1E8C7DBC004AFEC1 /* AppDelegate.h */,
 				BFD07E4B1E8C7DBC004AFEC1 /* AppDelegate.m */,
-				BFD07E4D1E8C7DBC004AFEC1 /* ViewController.h */,
-				BFD07E4E1E8C7DBC004AFEC1 /* ViewController.m */,
-				BFD07E501E8C7DBC004AFEC1 /* Main.storyboard */,
 				BFD07E531E8C7DBC004AFEC1 /* Assets.xcassets */,
 				BFD07E551E8C7DBC004AFEC1 /* LaunchScreen.storyboard */,
 				BFD07E581E8C7DBC004AFEC1 /* Info.plist */,
 				BFD07E471E8C7DBC004AFEC1 /* Supporting Files */,
+				BFEDE0321EB2205B00DA0A23 /* MyFlowLayout.h */,
+				BFEDE0331EB2205B00DA0A23 /* MyFlowLayout.m */,
+				BF7AE1D51EB81DFF0003B430 /* TestViewController.h */,
+				BF7AE1D61EB81DFF0003B430 /* TestViewController.m */,
+				BF7AE1EE1EB9577C0003B430 /* TestSupplementaryView.h */,
+				BF7AE1EF1EB9577C0003B430 /* TestSupplementaryView.m */,
+				BFD394A31EB95D100050F3C6 /* TestReusableFooterView.h */,
+				BFD394A41EB95D100050F3C6 /* TestReusableFooterView.m */,
 			);
 			path = CollecitionView_A;
 			sourceTree = "<group>";
@@ -140,7 +162,6 @@
 			files = (
 				BFD07E571E8C7DBC004AFEC1 /* LaunchScreen.storyboard in Resources */,
 				BFD07E541E8C7DBC004AFEC1 /* Assets.xcassets in Resources */,
-				BFD07E521E8C7DBC004AFEC1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,23 +172,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFD07E4F1E8C7DBC004AFEC1 /* ViewController.m in Sources */,
+				BFEDE0341EB2205B00DA0A23 /* MyFlowLayout.m in Sources */,
+				BFD394A81EB960B50050F3C6 /* TestDecorationReusableView.m in Sources */,
+				BF7AE1F01EB9577C0003B430 /* TestSupplementaryView.m in Sources */,
 				BFD07E4C1E8C7DBC004AFEC1 /* AppDelegate.m in Sources */,
 				BFD07E491E8C7DBC004AFEC1 /* main.m in Sources */,
+				BFD394A51EB95D100050F3C6 /* TestReusableFooterView.m in Sources */,
+				BF7AE1D71EB81DFF0003B430 /* TestViewController.m in Sources */,
+				BFD394D61EB973A70050F3C6 /* TestNewDecorationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFD07E501E8C7DBC004AFEC1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFD07E511E8C7DBC004AFEC1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFD07E551E8C7DBC004AFEC1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -310,6 +328,7 @@
 				BFD07E5D1E8C7DBC004AFEC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

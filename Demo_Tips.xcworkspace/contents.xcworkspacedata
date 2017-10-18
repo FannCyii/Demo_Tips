@@ -2,6 +2,51 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Hierarchy_A/Hierarchy_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WebImage_A/WebImage_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KIVKit/KIVKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KeyWindow_A/KeyWindow_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NIB_A/NIB_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Accessory_A/Accessory_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Keyboard_A/Keyboard_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TransitionAnimation_B/TransitionAnimation_B.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LocalizedString/LocalizedString.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AOP_B/AOP_B.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Aspect_A/Aspect_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:KIVContainerViewController/KIVContainerViewController.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TranslationAnimation/TranslationAnimation.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RAC_A/RAC_A.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OBJC/OBJC.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Animation_A/Animation_A.xcodeproj">
    </FileRef>
    <FileRef
@@ -21,5 +66,8 @@
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetWork_A/NetWork_A.xcodeproj">
    </FileRef>
 </Workspace>

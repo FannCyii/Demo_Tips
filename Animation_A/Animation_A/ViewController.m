@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ViewController001.h"
+#import "ViewController002.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, readwrite, strong) UILabel * atitle;
@@ -45,8 +46,12 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
     NSLog(@"%ld",indexPath.row);
-    if(indexPath.row == 0){
+    if(indexPath.row == 1){
         [self.navigationController  pushViewController:[[ViewController001 alloc]init] animated:YES];
+    }else if(indexPath.row == 2){
+        [self.navigationController  pushViewController:[[ViewController002 alloc]init] animated:YES];
     }
+}
+- (IBAction)SearchButton:(UIButton *)sender {
 }
 @end

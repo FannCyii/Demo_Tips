@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F11BFA21F02BB00005205E8 /* NSObject+KIVObjectExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F11BFA11F02BB00005205E8 /* NSObject+KIVObjectExtention.m */; };
+		8F2D94611ED978BE0021CA6B /* NSDate+KIVExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D94601ED978BE0021CA6B /* NSDate+KIVExtention.m */; };
+		8F2D94641ED978CB0021CA6B /* NSDate+KIVSave.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D94631ED978CB0021CA6B /* NSDate+KIVSave.m */; };
+		8FFE60161ED9646300D64ABC /* KIVKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FFE60131ED9646300D64ABC /* KIVKit.h */; };
+		8FFE602E1ED96AFB00D64ABC /* UIView+screenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE602D1ED96AFB00D64ABC /* UIView+screenShot.m */; };
+		8FFE60321ED96B2000D64ABC /* UIView+kivFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE60301ED96B2000D64ABC /* UIView+kivFrame.m */; };
+		8FFE60351ED96C8F00D64ABC /* NSDate+KIVExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FFE60341ED96C8F00D64ABC /* NSDate+KIVExtention.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8FFE600E1ED9646300D64ABC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				8FFE60161ED9646300D64ABC /* KIVKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F11BFA01F02BB00005205E8 /* NSObject+KIVObjectExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+KIVObjectExtention.h"; path = "Objc/NSObject+KIVObjectExtention.h"; sourceTree = "<group>"; };
+		8F11BFA11F02BB00005205E8 /* NSObject+KIVObjectExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+KIVObjectExtention.m"; path = "Objc/NSObject+KIVObjectExtention.m"; sourceTree = "<group>"; };
+		8F2D945F1ED978BE0021CA6B /* NSDate+KIVExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+KIVExtention.h"; path = "Object/NSString/NSDate+KIVExtention.h"; sourceTree = "<group>"; };
+		8F2D94601ED978BE0021CA6B /* NSDate+KIVExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+KIVExtention.m"; path = "Object/NSString/NSDate+KIVExtention.m"; sourceTree = "<group>"; };
+		8F2D94621ED978CB0021CA6B /* NSDate+KIVSave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KIVSave.h"; sourceTree = "<group>"; };
+		8F2D94631ED978CB0021CA6B /* NSDate+KIVSave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KIVSave.m"; sourceTree = "<group>"; };
+		8FFE60101ED9646300D64ABC /* libKIVKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKIVKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FFE60131ED9646300D64ABC /* KIVKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KIVKit.h; sourceTree = "<group>"; };
+		8FFE602C1ED96AFB00D64ABC /* UIView+screenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+screenShot.h"; path = "Tools/ScreenShot/UIView+screenShot.h"; sourceTree = "<group>"; };
+		8FFE602D1ED96AFB00D64ABC /* UIView+screenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+screenShot.m"; path = "Tools/ScreenShot/UIView+screenShot.m"; sourceTree = "<group>"; };
+		8FFE60301ED96B2000D64ABC /* UIView+kivFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+kivFrame.m"; path = "UI/View/UIView/KIVFrame/UIView+kivFrame.m"; sourceTree = "<group>"; };
+		8FFE60311ED96B2000D64ABC /* UIView+kivFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+kivFrame.h"; path = "UI/View/UIView/KIVFrame/UIView+kivFrame.h"; sourceTree = "<group>"; };
+		8FFE60331ED96C8F00D64ABC /* NSDate+KIVExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+KIVExtention.h"; path = "Object/NSDate/NSDate+KIVExtention.h"; sourceTree = "<group>"; };
+		8FFE60341ED96C8F00D64ABC /* NSDate+KIVExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+KIVExtention.m"; path = "Object/NSDate/NSDate+KIVExtention.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FFE600D1ED9646300D64ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFE60071ED9646300D64ABC = {
+			isa = PBXGroup;
+			children = (
+				8FFE60121ED9646300D64ABC /* KIVKit */,
+				8FFE60111ED9646300D64ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FFE60111ED9646300D64ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE60101ED9646300D64ABC /* libKIVKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FFE60121ED9646300D64ABC /* KIVKit */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE602A1ED96A9600D64ABC /* Common */,
+				8FFE60291ED96A8F00D64ABC /* Tools */,
+				8FFE60281ED9658400D64ABC /* Objc */,
+				8FFE60271ED9656E00D64ABC /* UIController */,
+				8FFE60201ED964E400D64ABC /* UI */,
+				8FFE601C1ED9647700D64ABC /* Object */,
+				8FFE60131ED9646300D64ABC /* KIVKit.h */,
+			);
+			path = KIVKit;
+			sourceTree = "<group>";
+		};
+		8FFE601C1ED9647700D64ABC /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE601F1ED964D700D64ABC /* NSData */,
+				8FFE601E1ED964D000D64ABC /* NSDate */,
+				8FFE601D1ED964C700D64ABC /* NSString */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		8FFE601D1ED964C700D64ABC /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				8F2D945F1ED978BE0021CA6B /* NSDate+KIVExtention.h */,
+				8F2D94601ED978BE0021CA6B /* NSDate+KIVExtention.m */,
+				8F2D94621ED978CB0021CA6B /* NSDate+KIVSave.h */,
+				8F2D94631ED978CB0021CA6B /* NSDate+KIVSave.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		8FFE601E1ED964D000D64ABC /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE60331ED96C8F00D64ABC /* NSDate+KIVExtention.h */,
+				8FFE60341ED96C8F00D64ABC /* NSDate+KIVExtention.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		8FFE601F1ED964D700D64ABC /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NSData;
+			sourceTree = "<group>";
+		};
+		8FFE60201ED964E400D64ABC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE60241ED9654300D64ABC /* CollectionView */,
+				8FFE60231ED9653500D64ABC /* TableView */,
+				8FFE60221ED9652B00D64ABC /* View */,
+				8FFE60211ED964F500D64ABC /* Frame */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8FFE60211ED964F500D64ABC /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE60311ED96B2000D64ABC /* UIView+kivFrame.h */,
+				8FFE60301ED96B2000D64ABC /* UIView+kivFrame.m */,
+			);
+			name = Frame;
+			sourceTree = "<group>";
+		};
+		8FFE60221ED9652B00D64ABC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FFE60231ED9653500D64ABC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE60251ED9654C00D64ABC /* TableViewCell */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		8FFE60241ED9654300D64ABC /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE60261ED9655C00D64ABC /* CollectionViewCell */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		8FFE60251ED9654C00D64ABC /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+		8FFE60261ED9655C00D64ABC /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8FFE60271ED9656E00D64ABC /* UIController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIController;
+			sourceTree = "<group>";
+		};
+		8FFE60281ED9658400D64ABC /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				8F11BFA01F02BB00005205E8 /* NSObject+KIVObjectExtention.h */,
+				8F11BFA11F02BB00005205E8 /* NSObject+KIVObjectExtention.m */,
+			);
+			name = Objc;
+			sourceTree = "<group>";
+		};
+		8FFE60291ED96A8F00D64ABC /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		8FFE602A1ED96A9600D64ABC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE602B1ED96AE300D64ABC /* UI */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		8FFE602B1ED96AE300D64ABC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE602F1ED96B0500D64ABC /* ScreenShot */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		8FFE602F1ED96B0500D64ABC /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE602C1ED96AFB00D64ABC /* UIView+screenShot.h */,
+				8FFE602D1ED96AFB00D64ABC /* UIView+screenShot.m */,
+			);
+			name = ScreenShot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FFE600F1ED9646300D64ABC /* KIVKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FFE60191ED9646300D64ABC /* Build configuration list for PBXNativeTarget "KIVKit" */;
+			buildPhases = (
+				8FFE600C1ED9646300D64ABC /* Sources */,
+				8FFE600D1ED9646300D64ABC /* Frameworks */,
+				8FFE600E1ED9646300D64ABC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIVKit;
+			productName = KIVKit;
+			productReference = 8FFE60101ED9646300D64ABC /* libKIVKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FFE60081ED9646300D64ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KIV;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kivan;
+				TargetAttributes = {
+					8FFE600F1ED9646300D64ABC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3X7GXPZAD8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8FFE600B1ED9646300D64ABC /* Build configuration list for PBXProject "KIVKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FFE60071ED9646300D64ABC;
+			productRefGroup = 8FFE60111ED9646300D64ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FFE600F1ED9646300D64ABC /* KIVKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FFE600C1ED9646300D64ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FFE602E1ED96AFB00D64ABC /* UIView+screenShot.m in Sources */,
+				8F2D94641ED978CB0021CA6B /* NSDate+KIVSave.m in Sources */,
+				8F11BFA21F02BB00005205E8 /* NSObject+KIVObjectExtention.m in Sources */,
+				8FFE60321ED96B2000D64ABC /* UIView+kivFrame.m in Sources */,
+				8F2D94611ED978BE0021CA6B /* NSDate+KIVExtention.m in Sources */,
+				8FFE60351ED96C8F00D64ABC /* NSDate+KIVExtention.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FFE60171ED9646300D64ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FFE60181ED9646300D64ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FFE601A1ED9646300D64ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3X7GXPZAD8;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8FFE601B1ED9646300D64ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3X7GXPZAD8;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FFE600B1ED9646300D64ABC /* Build configuration list for PBXProject "KIVKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFE60171ED9646300D64ABC /* Debug */,
+				8FFE60181ED9646300D64ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FFE60191ED9646300D64ABC /* Build configuration list for PBXNativeTarget "KIVKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFE601A1ED9646300D64ABC /* Debug */,
+				8FFE601B1ED9646300D64ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FFE60081ED9646300D64ABC /* Project object */;
+}

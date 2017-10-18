@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+JUSTTest001.h"
 
 @interface ViewController ()
 @property (nonatomic, strong, readwrite)NSString * testStr;
@@ -16,21 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
-    _testStr = @"abcd123";
+    NSObject * objc = [[NSObject alloc]init];
+    if ([objc respondsToSelector:@selector(ObjectTest001)])
+    {
+        [objc performSelector:@selector(ObjectTest001)];
+    }
     
-    void (^blk)(void)= ^{
-        NSLog(@"%@",_testStr);
-    };
-    blk();
-    
+    [objc ObjectTest001];
+}
+- (IBAction)buttonClick:(id)sender {
 }
 
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

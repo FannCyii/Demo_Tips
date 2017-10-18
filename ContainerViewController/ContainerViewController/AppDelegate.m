@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "KIVMainViewController.h"
+#import "KIVControllerDispach.h"
+#import "ParentsViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +19,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    self.vcContoller = [KIVControllerDispach shareController];
+    
+    KIVMainViewController * mainVc = [[KIVMainViewController alloc]init];
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = [[ParentsViewController alloc]init];//[[UINavigationController alloc]initWithRootViewController:mainVc];
+    //[self.vcContoller pushVC:mainVc];
+    
+    
     return YES;
 }
 

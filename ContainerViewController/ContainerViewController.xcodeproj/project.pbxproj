@@ -7,28 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF13D89F1EA5BF1700AE0A83 /* KIVContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13D89E1EA5BF1700AE0A83 /* KIVContainerViewController.m */; };
+		BF13D8A61EA5BF7C00AE0A83 /* ParentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13D8A21EA5BF7C00AE0A83 /* ParentsViewController.m */; };
+		BF13D8A71EA5BF7C00AE0A83 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13D8A31EA5BF7C00AE0A83 /* ChildViewController.m */; };
+		BF13D8AC1EA5CD5500AE0A83 /* UIViewController+ContainerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BF13D8AB1EA5CD5500AE0A83 /* UIViewController+ContainerVC.m */; };
+		BF96293B1EA66E3C00BCDE8B /* KIVControllerDispach.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96293A1EA66E3C00BCDE8B /* KIVControllerDispach.m */; };
+		BF96293E1EA6732200BCDE8B /* KIVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96293D1EA6732200BCDE8B /* KIVMainViewController.m */; };
+		BF9629411EA6776100BCDE8B /* KIVViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9629401EA6776100BCDE8B /* KIVViewController1.m */; };
+		BF9629461EA6F01900BCDE8B /* UIViewController+KIVContainerExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9629451EA6F01900BCDE8B /* UIViewController+KIVContainerExtension.m */; };
 		BFA664791E7B655B00AC087E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA664781E7B655B00AC087E /* main.m */; };
 		BFA6647C1E7B655B00AC087E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA6647B1E7B655B00AC087E /* AppDelegate.m */; };
-		BFA664821E7B655B00AC087E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA664801E7B655B00AC087E /* Main.storyboard */; };
 		BFA664841E7B655B00AC087E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA664831E7B655B00AC087E /* Assets.xcassets */; };
 		BFA664871E7B655B00AC087E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA664851E7B655B00AC087E /* LaunchScreen.storyboard */; };
-		BFA664901E7B658000AC087E /* ParentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA6648F1E7B658000AC087E /* ParentsViewController.m */; };
-		BFA664931E7B658D00AC087E /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA664921E7B658D00AC087E /* ChildViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF13D89D1EA5BF1700AE0A83 /* KIVContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KIVContainerViewController.h; path = "容器视图对子VC的管理/KIVContainerViewController.h"; sourceTree = "<group>"; };
+		BF13D89E1EA5BF1700AE0A83 /* KIVContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KIVContainerViewController.m; path = "容器视图对子VC的管理/KIVContainerViewController.m"; sourceTree = "<group>"; };
+		BF13D8A21EA5BF7C00AE0A83 /* ParentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParentsViewController.m; path = "父子视图的生命周期关系/ParentsViewController.m"; sourceTree = "<group>"; };
+		BF13D8A31EA5BF7C00AE0A83 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildViewController.m; path = "父子视图的生命周期关系/ChildViewController.m"; sourceTree = "<group>"; };
+		BF13D8A41EA5BF7C00AE0A83 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildViewController.h; path = "父子视图的生命周期关系/ChildViewController.h"; sourceTree = "<group>"; };
+		BF13D8A51EA5BF7C00AE0A83 /* ParentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParentsViewController.h; path = "父子视图的生命周期关系/ParentsViewController.h"; sourceTree = "<group>"; };
+		BF13D8AA1EA5CD5500AE0A83 /* UIViewController+ContainerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ContainerVC.h"; sourceTree = "<group>"; };
+		BF13D8AB1EA5CD5500AE0A83 /* UIViewController+ContainerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ContainerVC.m"; sourceTree = "<group>"; };
+		BF9629391EA66E3C00BCDE8B /* KIVControllerDispach.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KIVControllerDispach.h; path = ControllerDispach/KIVControllerDispach.h; sourceTree = "<group>"; };
+		BF96293A1EA66E3C00BCDE8B /* KIVControllerDispach.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KIVControllerDispach.m; path = ControllerDispach/KIVControllerDispach.m; sourceTree = "<group>"; };
+		BF96293C1EA6732200BCDE8B /* KIVMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIVMainViewController.h; sourceTree = "<group>"; };
+		BF96293D1EA6732200BCDE8B /* KIVMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIVMainViewController.m; sourceTree = "<group>"; };
+		BF96293F1EA6776100BCDE8B /* KIVViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIVViewController1.h; sourceTree = "<group>"; };
+		BF9629401EA6776100BCDE8B /* KIVViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIVViewController1.m; sourceTree = "<group>"; };
+		BF9629421EA6778200BCDE8B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BF9629441EA6F01900BCDE8B /* UIViewController+KIVContainerExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KIVContainerExtension.h"; path = "ContainerExtension/UIViewController+KIVContainerExtension.h"; sourceTree = "<group>"; };
+		BF9629451EA6F01900BCDE8B /* UIViewController+KIVContainerExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KIVContainerExtension.m"; path = "ContainerExtension/UIViewController+KIVContainerExtension.m"; sourceTree = "<group>"; };
 		BFA664741E7B655B00AC087E /* ContainerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA664781E7B655B00AC087E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BFA6647A1E7B655B00AC087E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFA6647B1E7B655B00AC087E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BFA664811E7B655B00AC087E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFA664831E7B655B00AC087E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFA664861E7B655B00AC087E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFA664881E7B655B00AC087E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFA6648E1E7B658000AC087E /* ParentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentsViewController.h; sourceTree = "<group>"; };
-		BFA6648F1E7B658000AC087E /* ParentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentsViewController.m; sourceTree = "<group>"; };
-		BFA664911E7B658D00AC087E /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
-		BFA664921E7B658D00AC087E /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,9 +59,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF13D8991EA5BEC200AE0A83 /* 容器视图对子VC的管理,是否有意义？ 系统都自带了 */ = {
+			isa = PBXGroup;
+			children = (
+				BF13D8A91EA5C22F00AE0A83 /* ChildVC */,
+				BF13D8A81EA5C22300AE0A83 /* ContainerVC */,
+				BF13D8AA1EA5CD5500AE0A83 /* UIViewController+ContainerVC.h */,
+				BF13D8AB1EA5CD5500AE0A83 /* UIViewController+ContainerVC.m */,
+			);
+			name = "容器视图对子VC的管理,是否有意义？ 系统都自带了";
+			sourceTree = "<group>";
+		};
+		BF13D8A01EA5BF1F00AE0A83 /* 父子视图的生命周期关系 */ = {
+			isa = PBXGroup;
+			children = (
+				BF13D8A51EA5BF7C00AE0A83 /* ParentsViewController.h */,
+				BF13D8A21EA5BF7C00AE0A83 /* ParentsViewController.m */,
+				BF13D8A41EA5BF7C00AE0A83 /* ChildViewController.h */,
+				BF13D8A31EA5BF7C00AE0A83 /* ChildViewController.m */,
+			);
+			name = "父子视图的生命周期关系";
+			sourceTree = "<group>";
+		};
+		BF13D8A81EA5C22300AE0A83 /* ContainerVC */ = {
+			isa = PBXGroup;
+			children = (
+				BF13D89D1EA5BF1700AE0A83 /* KIVContainerViewController.h */,
+				BF13D89E1EA5BF1700AE0A83 /* KIVContainerViewController.m */,
+			);
+			name = ContainerVC;
+			sourceTree = "<group>";
+		};
+		BF13D8A91EA5C22F00AE0A83 /* ChildVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ChildVC;
+			sourceTree = "<group>";
+		};
+		BF9629381EA66DF200BCDE8B /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				BF9629391EA66E3C00BCDE8B /* KIVControllerDispach.h */,
+				BF96293A1EA66E3C00BCDE8B /* KIVControllerDispach.m */,
+			);
+			name = Navi;
+			sourceTree = "<group>";
+		};
+		BF9629431EA6EFC000BCDE8B /* KIVContainterVC */ = {
+			isa = PBXGroup;
+			children = (
+				BF9629441EA6F01900BCDE8B /* UIViewController+KIVContainerExtension.h */,
+				BF9629451EA6F01900BCDE8B /* UIViewController+KIVContainerExtension.m */,
+			);
+			name = KIVContainterVC;
+			sourceTree = "<group>";
+		};
 		BFA6646B1E7B655B00AC087E = {
 			isa = PBXGroup;
 			children = (
+				BF9629431EA6EFC000BCDE8B /* KIVContainterVC */,
+				BF96293F1EA6776100BCDE8B /* KIVViewController1.h */,
+				BF9629401EA6776100BCDE8B /* KIVViewController1.m */,
+				BF9629381EA66DF200BCDE8B /* Navi */,
 				BFA664761E7B655B00AC087E /* ContainerViewController */,
 				BFA664751E7B655B00AC087E /* Products */,
 			);
@@ -61,17 +138,17 @@
 		BFA664761E7B655B00AC087E /* ContainerViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BF13D8A01EA5BF1F00AE0A83 /* 父子视图的生命周期关系 */,
+				BF13D8991EA5BEC200AE0A83 /* 容器视图对子VC的管理,是否有意义？ 系统都自带了 */,
 				BFA6647A1E7B655B00AC087E /* AppDelegate.h */,
 				BFA6647B1E7B655B00AC087E /* AppDelegate.m */,
-				BFA664801E7B655B00AC087E /* Main.storyboard */,
 				BFA664831E7B655B00AC087E /* Assets.xcassets */,
 				BFA664851E7B655B00AC087E /* LaunchScreen.storyboard */,
 				BFA664881E7B655B00AC087E /* Info.plist */,
 				BFA664771E7B655B00AC087E /* Supporting Files */,
-				BFA6648E1E7B658000AC087E /* ParentsViewController.h */,
-				BFA6648F1E7B658000AC087E /* ParentsViewController.m */,
-				BFA664911E7B658D00AC087E /* ChildViewController.h */,
-				BFA664921E7B658D00AC087E /* ChildViewController.m */,
+				BF96293C1EA6732200BCDE8B /* KIVMainViewController.h */,
+				BF96293D1EA6732200BCDE8B /* KIVMainViewController.m */,
+				BF9629421EA6778200BCDE8B /* PrefixHeader.pch */,
 			);
 			path = ContainerViewController;
 			sourceTree = "<group>";
@@ -145,7 +222,6 @@
 			files = (
 				BFA664871E7B655B00AC087E /* LaunchScreen.storyboard in Resources */,
 				BFA664841E7B655B00AC087E /* Assets.xcassets in Resources */,
-				BFA664821E7B655B00AC087E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,9 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF96293E1EA6732200BCDE8B /* KIVMainViewController.m in Sources */,
+				BF13D89F1EA5BF1700AE0A83 /* KIVContainerViewController.m in Sources */,
+				BF9629411EA6776100BCDE8B /* KIVViewController1.m in Sources */,
+				BF96293B1EA66E3C00BCDE8B /* KIVControllerDispach.m in Sources */,
+				BF13D8AC1EA5CD5500AE0A83 /* UIViewController+ContainerVC.m in Sources */,
+				BF9629461EA6F01900BCDE8B /* UIViewController+KIVContainerExtension.m in Sources */,
 				BFA6647C1E7B655B00AC087E /* AppDelegate.m in Sources */,
-				BFA664931E7B658D00AC087E /* ChildViewController.m in Sources */,
-				BFA664901E7B658000AC087E /* ParentsViewController.m in Sources */,
+				BF13D8A71EA5BF7C00AE0A83 /* ChildViewController.m in Sources */,
+				BF13D8A61EA5BF7C00AE0A83 /* ParentsViewController.m in Sources */,
 				BFA664791E7B655B00AC087E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,14 +248,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BFA664801E7B655B00AC087E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFA664811E7B655B00AC087E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BFA664851E7B655B00AC087E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +352,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3X7GXPZAD8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ContainerViewController/PrefixHeader.pch";
 				INFOPLIST_FILE = ContainerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.kivan.cheng.ContainerViewController;
@@ -290,6 +366,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3X7GXPZAD8;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ContainerViewController/PrefixHeader.pch";
 				INFOPLIST_FILE = ContainerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.kivan.cheng.ContainerViewController;
@@ -316,6 +394,7 @@
 				BFA6648D1E7B655B00AC087E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
